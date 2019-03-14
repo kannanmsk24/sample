@@ -1,0 +1,98 @@
+.home_slider .carousel-caption {
+    right: 20%;
+    left: 15%;
+    padding-bottom: 30px;
+    top: 170px;
+    width: 35%;
+    text-align: justify;
+}
+.home_slider .carousel-caption h3
+{
+	font-size: 26px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+header .logo
+{
+	position: fixed;
+    top: 38px;
+    z-index: 999999;
+    left: 100px;
+}
+.header .navbar-fixed-right {
+	width: 200px;
+	position: fixed;
+	border-radius: 0;
+	height: 100%;
+	top: 0;
+	right: 0;
+	z-index: 99999999;
+}
+
+.header .navbar-fixed-right .navbar-nav > li {
+  float: none;  /* Cancel default li float: left */
+  width: 139px;
+}
+
+.header .navbar-fixed-right + .container {
+  padding-left: 160px;
+}
+
+/* On using dropdown menu (To right shift popuped) */
+.header .navbar-fixed-right .navbar-nav > li > .dropdown-menu {
+  margin-top: -50px;
+  margin-left: 140px;
+}
+.header .navbar-inverse {
+    background-color: transparent;
+    border-color: #080808;
+}
+.header .navbar-inverse .nav 
+{
+	padding-top: 70px;
+}
+.header .navbar-inverse .nav li a
+{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 14px;
+	transition: all .3s linear;
+	
+}
+.header .navbar-inverse .navbar-nav>.active>a, .header .navbar-inverse .navbar-nav>.active>a:focus, .header .navbar-inverse .navbar-nav>.active>a:hover
+{
+	background-color: transparent !important;
+	border-left: 5px solid #fff;
+	color: #ed1c24;
+}
+.header .nav li a:hover
+{
+	color: #ed1c24 !important;		
+}
+.img-responsive
+{
+	width: 100%;
+}
+.footer-bottom
+{
+	background: #231f20;
+	padding: 30px;
+	color: #fff;
+}
+.footer-bottom .navbar-nav li a
+{
+	background-color: transparent;
+	color: #fff;
+	font-size: 16px;
+}
+.inner_content
+{
+	height: 500px;
+}
+.darkHeader li.active
+{
+	color: #ed1c24 !important;	
+}
+.darkHeader li a {   
+    color: #333 !important;    
+}
