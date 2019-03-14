@@ -1,0 +1,37 @@
+@media(max-width:767px)
+{	
+	.shop_details 
+	{
+	    position: relative;
+	    left: 0;
+	    right: 0;
+	    top: 0;
+	}
+
+	.news_letter_content .news_form { 
+	    width: 100%;
+	    margin: 0 auto;
+	}
+	.home_slider {
+	    margin-top: 0;
+	}
+	.house_gemes_features .feature_img {
+	    float: none;
+	    max-height: 63px;
+	    margin-top: 20px;
+	    display: block;
+    	margin: 0 auto;
+	}
+	.house_gemes_features .features_content
+	{
+		text-align: center;
+    	margin-bottom: 60px;
+	}
+	.house_gemes_features .features_list:before
+	{
+		background-color: transparent;
+	}
+	footer {
+	    padding-top: 130px;
+	}
+}
